@@ -1,0 +1,59 @@
+.grid {
+  width: 800px;
+  height: 400px;
+background-image: linear-gradient(orange, yellow);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: thick;
+  border-color: lightblue;
+  border-radius: 2%;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.block {
+  background-color: blue;
+  border-width: medium;
+  border-color: blue;
+  border-radius: 5%
+
+}
+
+.platform {
+  background-image: linear-gradient(to right, black, grey, black);
+  border-width: thick;
+  border-radius: 25%;
+}
+
+body {
+  background-color: purple;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body h1 {
+  font-size: 40px;
+  color: yellow;
+}
+
+body h3 {
+  color: orange;
+  font-size: 30px;
+}
+
+#start-button {
+  background-color: black;
+  color: red;
+  border-radius: 40%;
+  border-color: black;
+  border-style: outset;
+  font-size: 20px;
+  font-weight: bold;
+}
