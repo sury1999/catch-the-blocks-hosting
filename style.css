@@ -33,7 +33,7 @@ background-image: linear-gradient(orange, yellow);
 }
 
 body {
-  background-color: purple;
+  background-color: #ef91ff;
   text-align: center;
   font-family: sans-serif;
 }
@@ -50,7 +50,7 @@ body h3 {
 
 #start-button {
   background-color: black;
-  color: red;
+  color: yellow;
   border-radius: 40%;
   border-color: black;
   border-style: outset;
